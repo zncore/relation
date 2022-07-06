@@ -9,7 +9,7 @@ use ZnCore\Entity\Exceptions\NotFoundException;
 use ZnCore\Validation\Constraints\BaseValidator;
 use ZnCore\Container\Helpers\ContainerHelper;
 use ZnCore\EntityManager\Interfaces\EntityManagerInterface;
-use ZnCore\Domain\Domain\Interfaces\ReadAllInterface;
+use ZnCore\Domain\Interfaces\ReadAllInterface;
 use ZnCore\Repository\Interfaces\FindOneInterface;
 
 class RelationValidator extends BaseValidator

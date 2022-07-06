@@ -6,7 +6,7 @@ use Psr\Container\ContainerInterface;
 use yii\di\Container;
 use ZnCore\Collection\Interfaces\Enumerable;
 use ZnCore\Collection\Libs\Collection;
-use ZnCore\Domain\Domain\Interfaces\FindAllInterface;
+use ZnCore\Domain\Interfaces\FindAllInterface;
 use ZnCore\Entity\Factories\PropertyAccess;
 use ZnCore\Entity\Helpers\CollectionHelper;
 use ZnCore\Query\Entities\Query;

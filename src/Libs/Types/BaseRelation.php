@@ -4,7 +4,7 @@ namespace ZnCore\Relation\Libs\Types;
 
 use Psr\Container\ContainerInterface;
 use ZnCore\Collection\Interfaces\Enumerable;
-use ZnCore\Domain\Domain\Interfaces\FindAllInterface;
+use ZnCore\Domain\Interfaces\FindAllInterface;
 use ZnCore\Entity\Factories\PropertyAccess;
 use ZnCore\Query\Entities\Query;
 use ZnCore\Query\Entities\Where;
