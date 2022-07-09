@@ -2,10 +2,12 @@
 
 namespace ZnCore\Relation\Libs\Types;
 
+use ZnCore\Collection\Interfaces\Enumerable;
+
 class VoidRelation extends BaseRelation implements RelationInterface
 {
 
-    protected function loadRelation(&$collection)
+    protected function loadRelation(Enumerable $collection)
     {
 
     }
