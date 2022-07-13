@@ -9,6 +9,7 @@ use ZnCore\Domain\Interfaces\FindAllInterface;
 use ZnCore\Entity\Factories\PropertyAccess;
 use ZnCore\Entity\Helpers\CollectionHelper;
 use ZnCore\Query\Entities\Query;
+use ZnCore\Relation\Interfaces\RelationInterface;
 use ZnCore\Relations\interfaces\CrudRepositoryInterface;
 
 class OneToManyRelation extends BaseRelation implements RelationInterface

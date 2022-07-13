@@ -5,12 +5,11 @@ namespace ZnCore\Relation\Constraints;
 use Exception;
 use Symfony\Component\Validator\Constraint;
 use Symfony\Component\Validator\Exception\UnexpectedValueException;
-use ZnCore\Entity\Exceptions\NotFoundException;
-use ZnCore\Validation\Constraints\BaseValidator;
 use ZnCore\Container\Helpers\ContainerHelper;
+use ZnCore\Entity\Exceptions\NotFoundException;
 use ZnCore\EntityManager\Interfaces\EntityManagerInterface;
-use ZnCore\Domain\Interfaces\ReadAllInterface;
 use ZnCore\Repository\Interfaces\FindOneInterface;
+use ZnCore\Validation\Constraints\BaseValidator;
 
 class RelationValidator extends BaseValidator
 {

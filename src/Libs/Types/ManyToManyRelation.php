@@ -11,6 +11,7 @@ use ZnCore\Entity\Factories\PropertyAccess;
 use ZnCore\Entity\Helpers\CollectionHelper;
 use ZnCore\Query\Entities\Query;
 use ZnCore\Query\Entities\Where;
+use ZnCore\Relation\Interfaces\RelationInterface;
 use ZnCore\Relations\interfaces\CrudRepositoryInterface;
 
 class ManyToManyRelation extends BaseRelation implements RelationInterface

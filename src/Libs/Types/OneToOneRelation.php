@@ -6,6 +6,7 @@ use yii\di\Container;
 use ZnCore\Collection\Interfaces\Enumerable;
 use ZnCore\Entity\Factories\PropertyAccess;
 use ZnCore\Entity\Helpers\CollectionHelper;
+use ZnCore\Relation\Interfaces\RelationInterface;
 use ZnCore\Relations\interfaces\CrudRepositoryInterface;
 
 class OneToOneRelation extends BaseRelation implements RelationInterface

@@ -8,6 +8,7 @@ use ZnCore\Domain\Interfaces\FindAllInterface;
 use ZnCore\Entity\Factories\PropertyAccess;
 use ZnCore\Query\Entities\Query;
 use ZnCore\Query\Entities\Where;
+use ZnCore\Relation\Interfaces\RelationInterface;
 use ZnCore\Relations\interfaces\CrudRepositoryInterface;
 
 abstract class BaseRelation implements RelationInterface

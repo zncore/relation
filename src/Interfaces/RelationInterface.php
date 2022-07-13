@@ -1,6 +1,6 @@
 <?php
 
-namespace ZnCore\Relation\Libs\Types;
+namespace ZnCore\Relation\Interfaces;
 
 use ZnCore\Collection\Interfaces\Enumerable;
 

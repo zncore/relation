@@ -4,10 +4,10 @@ namespace ZnCore\Relation\Libs;
 
 use InvalidArgumentException;
 use ZnCore\Arr\Helpers\ArrayHelper;
-use ZnCore\Instance\Helpers\ClassHelper;
 use ZnCore\Collection\Interfaces\Enumerable;
+use ZnCore\Instance\Helpers\ClassHelper;
 use ZnCore\Query\Entities\Query;
-use ZnCore\Relation\Libs\Types\RelationInterface;
+use ZnCore\Relation\Interfaces\RelationInterface;
 use ZnCore\Repository\Interfaces\RelationConfigInterface;
 use ZnCore\Repository\Interfaces\RepositoryInterface;
 
